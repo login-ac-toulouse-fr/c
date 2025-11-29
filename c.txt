@@ -1,1 +1,1 @@
-"https://facebook.com" | "https://example.com" | "Mi google"
+"https://www.facebook.com" | "https://www.example.com" | "Mi google"
