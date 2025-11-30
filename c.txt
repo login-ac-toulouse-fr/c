@@ -1,1 +1,1 @@
-"allow_url - https://www.instagram.com, https://www.facebook.com, https://www.roblox.com" | "off" | "" | "delete"
+"allow_url - https://www.instagram.com, https://www.facebook.com, https://www.roblox.com" | "https://www.google.com" | "" | "delete"
