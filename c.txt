@@ -1,1 +1,1 @@
-"https://www.facebook.com, https://www.instagram.com" | "https://www.google.com" | "https://www.google.com"
+"https://www.facebook.com, https://www.instagram.com" | "off" | "https://www.google.com"
