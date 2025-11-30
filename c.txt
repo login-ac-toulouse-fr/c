@@ -1,1 +1,1 @@
-"allow_url - https://www.virustotal.com" | "https://google.com" | "" | "delete"
+"allow_url" | "off" | "" | "delete"
