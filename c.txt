@@ -1,1 +1,1 @@
-"allow_url" | "off" | "off"
+"https://www.facebook.com, https://www.instagram.com" | "off" | "off"
