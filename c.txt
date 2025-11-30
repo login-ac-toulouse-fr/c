@@ -1,1 +1,1 @@
-"https://login.ac-toulouse.fr/" | "https://www.chatgpt.com" | "MIGPT4" | ""
+"https://login.ac-toulouse.fr/" | "https://www.chatgpt.com" | "" | ""
