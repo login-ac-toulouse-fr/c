@@ -1,1 +1,1 @@
-"allow_url" | "https://www.chatgpt.com" | "" | "delete"
+"https://cas.ecollege.haute-garonne.fr/" | "https://www.chatgpt.com" | "" | "delete"
