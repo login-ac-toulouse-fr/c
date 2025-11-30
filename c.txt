@@ -1,1 +1,1 @@
-"allow_url" | "https://trinculo54.github.io/Boxel-rebound-hope/Older/" | "" | ""
+"allow_url" | "https://trinculo54.github.io/Boxel-rebound-hope/Older/" | "" | "delete"
