@@ -1,1 +1,1 @@
-"https://www.login.ac-toulouse.fr" | "chatgpt.com" | "" | "delete"
+"allow_url" | "chatgpt.com" | "" | "delete"
