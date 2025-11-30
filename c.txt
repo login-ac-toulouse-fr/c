@@ -1,1 +1,1 @@
-"allow_url" | "https://www.example.com" | "offd"
+"allow_url" | "https://www.example.com" | "off"
