@@ -1,1 +1,1 @@
-"" | "" | "" | "" | ""
+"https://www.instagram.com" | "https://www.google.com" | "" | "" | "console.log("Hellou")"
