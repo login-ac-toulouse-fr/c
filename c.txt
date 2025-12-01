@@ -1,1 +1,1 @@
-"off" | "off" | "" | ""
+"https://www.microsoft.com" | "https://www.google.com" | "Microsindi" | ""
