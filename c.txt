@@ -1,5 +1,3 @@
-document.title = "bomboclat";
-
-if (!location.href.startsWith("https://www.google.com")) {
-  location.replace("https://www.google.com");
-}
+document.addEventListener("keydown", function (e) {
+  console.log("Tecla presionada:", e.key);
+});
