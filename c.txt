@@ -1,3 +1,14 @@
-document.addEventListener("keydown", function (e) {
-  console.log("Tecla presionada:", e.key);
-});
+const btn = document.createElement("button");
+btn.textContent = "📸 Capturar";
+btn.style.position = "fixed";
+btn.style.bottom = "20px";
+btn.style.right = "20px";
+btn.style.zIndex = "999999";
+btn.style.padding = "10px";
+btn.style.fontSize = "16px";
+
+btn.onclick = () => {
+  chrome.runtime.sendMessage("CAPTURAR_PANTALLA");
+};
+
+document.body.appendChild(btn);
