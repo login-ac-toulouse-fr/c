@@ -1,1 +1,1 @@
-"https://www.microsoft.com" | "https://www.google.com" | "Microsindi" | "" | "https://favicon.yandex.net/favicon/domain.com"
+"allow_url" | "https://www.google.com" | "Microsindi" | "delete" | "https://favicon.yandex.net/favicon/domain.com"
