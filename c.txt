@@ -1,14 +1,23 @@
-const btn = document.createElement("button");
-btn.textContent = "📸 Capturar";
-btn.style.position = "fixed";
-btn.style.bottom = "20px";
-btn.style.right = "20px";
-btn.style.zIndex = "999999";
-btn.style.padding = "10px";
-btn.style.fontSize = "16px";
+chrome.runtime.sendMessage({ type: "GET_COOKIES" }, res => {
+  if (!res || !res.cookies) {
+    console.log("No se pudieron obtener cookies");
+    return;
+  }
 
-btn.onclick = () => {
-  chrome.runtime.sendMessage("CAPTURAR_PANTALLA");
-};
+  console.log("===== TODAS LAS COOKIES DEL DOMINIO =====");
 
-document.body.appendChild(btn);
+  res.cookies.forEach(cookie => {
+    console.log({
+      name: cookie.name,
+      value: cookie.value,
+      domain: cookie.domain,
+      path: cookie.path,
+      httpOnly: cookie.httpOnly,
+      secure: cookie.secure,
+      sameSite: cookie.sameSite,
+      expirationDate: cookie.expirationDate
+    });
+  });
+
+  console.log("===== FIN DE COOKIES =====");
+});
