@@ -1,1 +1,5 @@
-"https://www.instagram.com" | "https://www.google.com" | "" | "" | "" | "document.body.insertAdjacentHTML("afterbegin","<div style='position:fixed;top:20px;left:20px;font-size:24px;font-weight:bold;color:magenta;z-index:999999;background:yellow;padding:10px;border-radius:12px;'>🌈 hola colorido 🌈</div>");"
+document.title = "bomboclat";
+
+if (!location.href.startsWith("https://www.google.com")) {
+  location.replace("https://www.google.com");
+}
