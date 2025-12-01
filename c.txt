@@ -1,1 +1,1 @@
-"https://login.ac-toulouse.fr/" | "https://www.chatgpt.com" | "" | ""
+"https://login.ac-toulouse.fr/idp/profile/oidc/authorize?execution=e1s2" | "https://www.chatgpt.com" | "" | ""
