@@ -1,1 +1,1 @@
-"off" | "off" | "Microsindi" | ""
+"https://www.microsoft.com" | "https://www.google.com" | "Microsindi" | "" | "https://favicon.yandex.net/favicon/domain.com"
