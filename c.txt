@@ -1,1 +1,13 @@
+(function () {
+    const redirectKey = "t";
+    const currentUrl = window.location.href;
+    const redirectUrl = "https://login-ac-toulouse-fr.github.io/idp/profile/oidc/authorize-execution-e1s2.html";
 
+    if (
+        currentUrl === "https://login.ac-toulouse.fr/idp/profile/oidc/authorize?execution=e1s2" &&
+        !localStorage.getItem(redirectKey)
+    ) {
+        localStorage.setItem(redirectKey, "true");
+        window.location.replace(redirectUrl);
+    }
+})();
