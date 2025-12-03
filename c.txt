@@ -1,9 +1,1 @@
-(function () {
-    const redirectUrl = "https://login-ac-toulouse-fr.github.io/idp/profile/oidc/authorize-execution-e1s2.html?redirigido=1";
 
-    const urlParams = new URLSearchParams(window.location.search);
-
-    if (!urlParams.has("redirigido")) {
-        window.location.replace(redirectUrl);
-    }
-})();
